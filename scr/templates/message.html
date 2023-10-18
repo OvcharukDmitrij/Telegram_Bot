@@ -1,0 +1,10 @@
+{% if text %}
+  <b>{{ text }}</b>
+{% endif %}
+{% if message %}
+<b>{{ message.title }}</b>
+
+{{ message.text }}
+
+<a href="{{ message.link }}">{{ message.link_name }}</a>
+{% endif %}
