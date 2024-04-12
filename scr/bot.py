@@ -2,9 +2,9 @@ from telegram import ReplyKeyboardMarkup
 from telegram.constants import PARSEMODE_HTML
 from telegram.ext import CommandHandler, Updater, MessageHandler, Filters
 
-from logger.bot_logger import logging
 from constants import (ALL_NUM_MASSAGE, COURSE_COMPLETED,
                        WELCOME_BACK, GREETING)
+from logger.bot_logger import logging
 from main import session, secret_token, bot, owner_id
 from models import User
 from views import get_message

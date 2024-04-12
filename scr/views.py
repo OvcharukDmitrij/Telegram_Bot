@@ -2,9 +2,9 @@ from datetime import datetime
 
 from jinja2 import Environment, FileSystemLoader
 
-from logger.bot_logger import logging
 from constants import (DATE_FORMAT, ALL_NUM_MASSAGE,
                        COURSE_COMPLETED, WAIT_MONDAY)
+from logger.bot_logger import logging
 from main import session
 from models import User, Message
 
